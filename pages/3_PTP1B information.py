@@ -1,8 +1,8 @@
 import streamlit as st
 st.set_page_config(
-    page_title="COX2 information")
+    page_title="PTP1B information")
 
 
-st.header("What is COX2?")
+st.header("What is PTP1B?")
 st.write("* Under development ")
 

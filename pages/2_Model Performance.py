@@ -6,10 +6,10 @@ st.set_page_config(
   page_title='Model performance',
   initial_sidebar_state='expanded')
 
-st.title('LRRK2 Activity Prediction App')
-st.info('The LRRK2 Activity Prediction App can be used to predict whether a  molecule is active or inactive for lrrk2 target protein .')
+st.title('PTP1B Activity Prediction App')
+#st.info('The LRRK2 Activity Prediction App can be used to predict whether a  molecule is active or inactive for lrrk2 target protein .')
 st.subheader("Model Performance")
-st.write("We chosed PubChem fingerprints for building the model using RandomForest Classifier. SMOTE technique was applied to overcome imbalance problem.")
+#st.write("We chosed PubChem fingerprints for building the model using RandomForest Classifier. SMOTE technique was applied to overcome imbalance problem.")
 
 
 with st.expander('Performance', expanded=True):
