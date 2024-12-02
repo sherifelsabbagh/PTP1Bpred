@@ -13,9 +13,8 @@ st.subheader("Model Performance")
 
 
 with st.expander('Performance', expanded=True):
-    st.write("Sensitivity (SN) : 96.8")
-    st.write("Specificity (SP) : 52")
-    st.write("Matthews’s correlation coefficient (MCC) : 0.53")
-    st.write("Accuracy (Q) : 92.4")
+    st.write("Sensitivity (SN) : 85%")
+    st.write("Specificity (SP) : 78%")
+    st.write("Accuracy (Q) : 82%)
     Auc_i = Image.open('AUC.png')
     st.image(Auc_i, use_column_width=True)
