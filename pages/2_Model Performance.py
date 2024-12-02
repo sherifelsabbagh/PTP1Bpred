@@ -15,6 +15,6 @@ st.subheader("Model Performance")
 with st.expander('Performance', expanded=True):
     st.write("Sensitivity (SN) : 85%")
     st.write("Specificity (SP) : 78%")
-    st.write("Accuracy (Q) : 82%)
+    st.write("Accuracy (Q) : 82%")
     Auc_i = Image.open('AUC.png')
     st.image(Auc_i, use_column_width=True)
