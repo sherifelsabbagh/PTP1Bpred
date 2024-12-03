@@ -25,6 +25,8 @@ def PUbchemfp_desc_calc():
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     os.remove('molecule.smi')
+
+st.cache_data(clear_cache=True)
     
 def descriptors(smiles):
     mols = [Chem.MolFromSmiles(s) for s in smiles] 
